@@ -1,6 +1,8 @@
 import { renderHook, act } from '@testing-library/react';
 import useCounter from '../hooks/features/homepage/useCounter';
 
+//this is a test for the useCounter hook
+
 describe('useCounter', () => {
   it('should initialize with count 0 and val 1', () => {
     const { result } = renderHook(() => useCounter());
