@@ -9,7 +9,7 @@ describe('useCounter', () => {
     expect(result.current.val).toBe(1);
   });
 
-  it('should increment count by val when increment is called', () => {
+  it('should increment count by val when increment is called.', () => {
     const { result } = renderHook(() => useCounter());
 
     act(() => {
